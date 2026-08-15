@@ -50,12 +50,15 @@ ExportedObj/
 .consulo/
 
 # ---------------------------------------------------------------------------
-# IDEs
+# IDEs / tooling
 # ---------------------------------------------------------------------------
 .vs/
 .idea/
 .vscode/
 *.swp
+
+# Machine-local Claude Code permissions (.claude/settings.json IS shared)
+.claude/settings.local.json
 
 # ---------------------------------------------------------------------------
 # macOS
